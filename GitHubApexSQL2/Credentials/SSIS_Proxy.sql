@@ -1,0 +1,2 @@
+CREATE CREDENTIAL [SSIS_Proxy] WITH IDENTITY = 'CHS\svcCareTransformETL'
+GO
