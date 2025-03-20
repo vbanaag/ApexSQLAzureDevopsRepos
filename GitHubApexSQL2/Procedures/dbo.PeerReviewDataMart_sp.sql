@@ -18,11 +18,10 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
-Declare @test as varchar(55)
-
 IF OBJECT_ID('tempdb..#temp') IS NOT NULL
 DROP TABLE #temp
 
+Declare @test2 as varchar(55)
 
 select
     [PeerReview ID],  
