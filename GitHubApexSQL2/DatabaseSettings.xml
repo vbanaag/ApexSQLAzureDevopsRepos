@@ -4,6 +4,6 @@
   <Containment>NONE</Containment>
   <DatabaseName>CareTransform_Sandbox_ApexSQL2</DatabaseName>
   <ExistsOnSourceControl>true</ExistsOnSourceControl>
-  <ServerName>CHSUTILSQLADT01</ServerName>
+  <ServerName>CHSUTILSQLBDT01</ServerName>
   <ServerVersion>Sql2016</ServerVersion>
 </DatabaseSettings>
