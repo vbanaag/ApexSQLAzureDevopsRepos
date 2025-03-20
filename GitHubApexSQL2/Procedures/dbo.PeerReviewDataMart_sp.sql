@@ -18,6 +18,8 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
+Declare @test as varchar(55)
+
 IF OBJECT_ID('tempdb..#temp') IS NOT NULL
 DROP TABLE #temp
 
