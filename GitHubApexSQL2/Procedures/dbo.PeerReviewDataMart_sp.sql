@@ -9,6 +9,7 @@ GO
 -- Changed by : Jovy Banaag 2-9-2022 - Code change to cleanse data of pipe delimiters
 -- Changed by : Jovy Banaag 2-10-2022 - Add new column File State
 -- Changed by : Jovy Banaag 8-22-2023 - Code change for handling multiple NPIs in one row
+-- Changed by : Jovy Banaag 3-21-2025 - Code change for testingin ApexSQL
 -- =============================================
 CREATE PROCEDURE [dbo].[PeerReviewDataMart_sp] 
 	
@@ -21,7 +22,7 @@ BEGIN
 IF OBJECT_ID('tempdb..#temp') IS NOT NULL
 DROP TABLE #temp
 
-Declare @test2 as varchar(55)
+Declare @test3 as varchar(55)
 
 select
     [PeerReview ID],  
