@@ -6,6 +6,7 @@ GO
 -- Create date: <02-12-2021>
 -- Description:	<Full Update>
 -- Changed by : Jovy Banaag 7-22-2022 - Code change to add gender fields per Amber; changed text fields to Pascal case
+-- Changed by : Jovy Banaag 3-12-2025 - Added this line for code change to test GitHub source control
 -- =============================================
 CREATE PROCEDURE [dbo].[DimPatient_Sp] 
 	-- Add the parameters for the stored procedure here
