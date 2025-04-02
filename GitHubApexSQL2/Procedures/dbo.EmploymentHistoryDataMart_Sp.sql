@@ -10,7 +10,7 @@ GO
 -- Changed by : Jovy Banaag 07/27/2023 - Added new fields for HR Turnover report
 -- Changed by : Jovy Banaag 02/04/2025 - Added conversion code for dates
 -- =============================================
-create PROCEDURE [dbo].[EmploymentHistoryDataMart_Sp] 
+CREATE PROCEDURE [dbo].[EmploymentHistoryDataMart_Sp] 
 	
 AS
 BEGIN
@@ -18,6 +18,7 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
+	Declare @test2 as varchar(55), @test3 as varchar(30)
 
 --Getting data
 IF OBJECT_ID('tempdb..#temp') IS NOT NULL
